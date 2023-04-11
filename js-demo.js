@@ -18,9 +18,9 @@ var thisDayNum = thisDay.getDay();
 var thisWeekday = getWeekday(thisDayNum);
 var thisTime = thisDay.toLocaleTimeString();
 
-document.getElementById("date").textContent=thisDate;
-document.getElementById("wday").textContent=thisWeekday;
-document.getElementById("time").textContent=thisTime;
+document.getElementById("date").textContent= thisDate;
+document.getElementById("wday").textContent= thisWeekday;
+document.getElementById("time").textContent= thisTime;
 }
 
 function getWeekday(dayNum){
