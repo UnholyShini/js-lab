@@ -1,12 +1,13 @@
-﻿/*
+/*
    JS Activity Clock
-   Name: 
+   Name: Dillon Micheli
    Date:   
 
    function getWeekday(dayNum)
       Returns the text of the day of the week where dayNum
       is the number of the week from 0 (Sunday) to 6 (Saturday)
 */
+
 
 runClock();
 setInterval("runClock()", 1000);
@@ -24,6 +25,6 @@ document.getElementById("time").textContent=thisTime;
 }
 
 function getWeekday(dayNum){
-var wDays=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday",];
+   var wDays=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday",];
 return wDays[dayNum]
 }
