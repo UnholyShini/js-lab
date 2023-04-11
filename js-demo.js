@@ -8,9 +8,8 @@
       is the number of the week from 0 (Sunday) to 6 (Saturday)
 */
 
-
 runClock();
-setInterval("runClock()", 1000);
+setInterval("runClock()" , 1000);
 
 function runClock(){
 var thisDay=new Date();
