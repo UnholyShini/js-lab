@@ -25,5 +25,5 @@ document.getElementById("time").textContent=thisTime;
 
 function getWeekday(dayNum){
    var wDays=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday",];
-return wDays[dayNum]
+return wDays[dayNum];
 }
