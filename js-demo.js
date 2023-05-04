@@ -1,8 +1,7 @@
 ﻿runClock();
 setInterval("runClock()",1000);
 
-function runClock(){
-   
+function runClock(){   
 var thisDay = new Date();
 var thisDate = thisDay.toLocaleDateString();
 var thisDayNum = thisDay.getDay();
@@ -15,6 +14,6 @@ document.getElementById("time").textContent= thisTime;
 }
 
 function getWeekday(dayNum){
-   var wDays=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday",];
+   var wDays=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
    return wDays[dayNum];
 }
